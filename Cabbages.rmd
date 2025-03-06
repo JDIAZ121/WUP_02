@@ -39,6 +39,10 @@ We looked at the variables and it looked like we had numerical variables which i
 
 ### Numerical Descriptive Results
 
+```{r}
+boxplot(VitC~Cult,data=veggy)
+```
+box c52 is higher than c39.which means the first quartile of c52 is larger than c39 and that concludes that they are statistically different.
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
